@@ -1,6 +1,10 @@
 .section {
     background-color: white;
-    padding: 45px 0;
+    padding: 25px 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto; 
 }
 .titre {
     background-color: rgb(216, 17, 17);
@@ -12,4 +16,13 @@
     font-size: 30px;
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
+}
+.title {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
 }
