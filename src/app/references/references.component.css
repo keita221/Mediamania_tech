@@ -1,6 +1,6 @@
 .section {
     background-color: white;
-    padding: 25px 0;
+    padding: 75px 0;
 }
 .container {
     width: 80%;
@@ -22,7 +22,29 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .flex {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.flex h3 {
+    color: #000;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    
+}
+.flex a{
+    text-decoration: none;
+}
+.flex p {
+    color: #313131;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+.flex div {
+    text-decoration: none;
 }
