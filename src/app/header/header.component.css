@@ -1,3 +1,7 @@
+.section {
+    background-color: white;
+    padding: 75px 0;
+}
 .img {
     padding: 10px 0;
 }
@@ -49,9 +53,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    top: 0;
 }
-
+.scrolled {
+    position: fixed;
+    top: 0;
+  }
 header nav ul {
     display: flex;
     list-style: none;
@@ -87,7 +94,7 @@ header nav ul li a{
 
 	.img {
         display: none;
-        padding-top: 0px;
+        top: 0;
     }
     
     p {
@@ -102,6 +109,8 @@ header nav ul li a{
     header {
         padding: 0 30px;
         justify-content: left;
+        position: fixed;
+        top: 0;
     }
     .hamburger {
         display: block;
@@ -147,6 +156,8 @@ header nav ul li a{
     header {
         padding: 0 30px;
         justify-content: left;
+        position: fixed;
+        top: 0;
     }
     .hamburger {
         display: block;
